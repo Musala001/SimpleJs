@@ -1,17 +1,17 @@
-#sec1{
-    background-color: green;
-    border: solid;
-    border-color: black;
+body{
+    place-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
 }
 
-#h1{
-    background-color: blue;
+#sec{
+    place-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    text-align: center;
+    transform: translateY(150px);
+    width: 500px;
+    
 
-}
-
-#sec2{
-    background-color: yellow;
-}
-#btn{
-    background-color: blue;
 }

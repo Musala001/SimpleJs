@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal webpage</title>
+    <title>Contact Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1 id="h1">Ndouvhada Musala's Personal Webpage</h1>
-  <section id="sec1">
-      <p>My name is Musala Ndouvhada, I love coding and solving problem and seeing the results, I study Mathematics and Computer Science at Wits University.</p>
-  </section>
+<body id="bod">
+<section id="sec">
+   <form id="contactForm">
+      <label>Name
+         <input type="text" id="txt" required placeholder="Enter Ur Name">
+      </label><br>
+      <label>Email
+         <input type="email" id="email" required placeholder="Enter Ur Email">
+      </label><br>
+      <h4>Leave a Message For us below</h4>
+         <textarea id="msg"></textarea>
+      <br>
+      
+      <button id="btn">submit</button>
+   </form>
 
-  <section id="sec2">
-   <h3>Here are things I like</h3>
-   <ul>
-      <li>Coding</li>
-      <li>Eating</li>
-      <li>Running</li>
-      <li>Studying</li>
-     </ul>
-  </section>
-  <button id="btn" >Click Me</button>
+   <p id = "wat"></p>
+</section>
+
   
 <script src="script.js"></script>
 </body>
